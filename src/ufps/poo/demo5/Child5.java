@@ -9,6 +9,7 @@ public class Child5 extends Parent5 {
 		
 		// Error:Constructor call must be the first statement in a //constructor
 		// System.out.println("Before setting,c="+ this.c); 
+		
 		super(a, b); // <-- Esto debe ser lo primero
 		
 		System.out.println("======================================");
@@ -29,11 +30,6 @@ public class Child5 extends Parent5 {
 		
 		parent5Method();		
 		
-		
-		// Juan Pablo, sale error.
-		// Julian, sí sirve
-		// Jarlinn, sale error.
-		
 	}
 	
 	void parent5Method() {
@@ -44,3 +40,12 @@ public class Child5 extends Parent5 {
 	
 
 }
+
+
+
+
+
+
+
+
+

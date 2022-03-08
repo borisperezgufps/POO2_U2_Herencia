@@ -4,8 +4,6 @@ public class Child9 extends Parent9 {
 	int b;
 
 	Child9() {
-		//both this() and super() cannot be used together
-		//super();
 		this(2);
 		System.out.println("Invoking parameterless constructor of Child9.");
 	}

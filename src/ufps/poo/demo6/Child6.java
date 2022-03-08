@@ -3,6 +3,7 @@ package ufps.poo.demo6;
 public class Child6 extends Parent6 {
 
 	int myInt;// this will hide myInt in Parent6
+	
 
 	Child6() {
 		System.out.println("Initially, the value of myInt in parent class=" + super.myInt);

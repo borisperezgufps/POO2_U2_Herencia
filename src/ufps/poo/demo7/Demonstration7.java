@@ -4,12 +4,17 @@ public class Demonstration7 {
 
 	public static void main(String[] args) {
 		System.out.println("***Demonstration-7.Testing the use of super keyword.****");
-		Child7 obChild = new Child7();
-		obChild.showMe();
 		
-		// Para invocar de forma directa el método del Padre se podría hacer lo siguiente:
-		Parent7 obParent = new Parent7();
-	    obParent.showMe();//Now Parent class method will be invoked.
+//		Child7 obChild = new Child7();
+//		obChild.showMe();
+//		
+//		// Para invocar de forma directa el método del Padre se podría hacer lo siguiente:
+//		Parent7 obParent = new Parent7();
+//	    obParent.showMe();//Now Parent class method will be invoked.
+	    
+//	    Parent7 ob = new Child7();
+//	    Child7 oc = (Child7) ob;
+//	    oc.showMe3();
 	}
 
 }

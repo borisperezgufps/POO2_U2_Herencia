@@ -8,5 +8,9 @@ public class Child7 extends Parent7 {
 		// System.out.println("Invoking the parent method now.");
 //		super.showMe();
 	}
+	
+	public void showMe3() {
+		System.out.println("showMe3.");
+	}
 
 }

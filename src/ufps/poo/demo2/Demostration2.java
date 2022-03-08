@@ -14,15 +14,15 @@ public class Demostration2 {
 		// This is a proof that a is also inherited. See the error //message.
 		
 		obB.telefono = 233222234;
-		obB.setTelefono(233222234);
+//		obB.setTelefono(233222234);
 		obB.setA(5);
 		System.out.println(obB.getA());
 		
 		// ***Demonstration-2.Private members are also inherited***
 		// 5
 		
-//		System.out.println(obA.a);		
-//		System.out.println(obB.a);
+		System.out.println(obA.a);		
+		System.out.println(obB.a);
 		
 //		System.out.println(obA.b);		
 //		System.out.println(obB.b);

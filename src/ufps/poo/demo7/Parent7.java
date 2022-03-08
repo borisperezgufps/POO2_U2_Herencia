@@ -9,5 +9,9 @@ public class Parent7 {
 	public void showMe() {
 		System.out.println("At present, I am inside the parent method.");
 	}
+	
+	public void showMe2(){
+		System.out.println("showMe2.");
+	}
 
 }
